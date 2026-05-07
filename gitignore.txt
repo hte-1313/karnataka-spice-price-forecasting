@@ -1,0 +1,25 @@
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Data files (too large for Git) ───────────────────────────
+*.parquet
+*.csv
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# ── Model outputs (too large) ────────────────────────────────
+models/*.pkl
+models/*.pt
+models/*.json
+
+# ── OS files ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
