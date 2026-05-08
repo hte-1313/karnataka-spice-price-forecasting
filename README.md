@@ -212,9 +212,4 @@ matplotlib>=3.7  seaborn>=0.13  plotly>=5.18
 requests>=2.31  tqdm>=4.66  pyarrow>=14.0
 ```
 
----
 
-## Author
-
-MSc research project — Karnataka agricultural commodity price forecasting with uncertainty quantification and game-theoretic decision support.
-Institution: LSE
