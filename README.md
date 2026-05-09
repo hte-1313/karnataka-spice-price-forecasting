@@ -10,7 +10,7 @@ Multivariate machine learning pipeline for district-level vanilla and arecanut w
 
 ---
 
-## Key Results
+## Reportable Results
 
 | Model | Mean MAPE (val) | vs SARIMA |
 |---|---|---|
