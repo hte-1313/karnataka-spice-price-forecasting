@@ -49,7 +49,7 @@ Ljung-Box test: 0/10 groups achieve white-noise residuals for any individual mod
 **Finding 5 — ACI is the correct uncertainty method under regime shifts**
 The 2022-23 Madagascar vanilla supply collapse caused a structural break that violated exchangeability assumptions of static conformal prediction. ACI self-corrects coverage gap from 31.7pp to 6.7pp by updating the quantile at each step.
 
-**Finding 6 — Nash-optimal selling policy (policy contribution)**
+**Finding 6 — Nash-optimal selling policy**
 Formal sell condition: `p_t ≥ lower_ACI(t+1) / (1 + 0.008)`. This is the maximin dominant strategy under the farmer-vs-market game formulation. No existing Karnataka spice price paper derives a decision rule from forecast uncertainty.
 
 ---
@@ -200,16 +200,5 @@ karnataka-spice-price-forecasting/
     └── cell18_final.py
 ```
 
----
-
-## Requirements
-
-```
-pandas>=2.0  numpy>=1.26  scipy>=1.11  statsmodels>=0.14
-scikit-learn>=1.3  lightgbm>=4.0  xgboost>=2.0  optuna>=3.4
-torch>=2.0  pytorch-lightning>=2.0  pytorch-forecasting>=1.0
-matplotlib>=3.7  seaborn>=0.13  plotly>=5.18
-requests>=2.31  tqdm>=4.66  pyarrow>=14.0
-```
 
 
