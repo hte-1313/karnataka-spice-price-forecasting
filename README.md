@@ -200,16 +200,5 @@ karnataka-spice-price-forecasting/
     └── cell18_final.py
 ```
 
----
-
-## Requirements
-
-```
-pandas>=2.0  numpy>=1.26  scipy>=1.11  statsmodels>=0.14
-scikit-learn>=1.3  lightgbm>=4.0  xgboost>=2.0  optuna>=3.4
-torch>=2.0  pytorch-lightning>=2.0  pytorch-forecasting>=1.0
-matplotlib>=3.7  seaborn>=0.13  plotly>=5.18
-requests>=2.31  tqdm>=4.66  pyarrow>=14.0
-```
 
 
